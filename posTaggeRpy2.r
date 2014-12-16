@@ -1,4 +1,4 @@
-# convert to R
+# convert to R with rPython
 
 import nltk
 import sys
