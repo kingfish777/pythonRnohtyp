@@ -1,7 +1,7 @@
 pythonRnohtyp
 =============
 
-repo for talk dec 16, 2014 at stag's head pub, houston on interoperability (commutatative) between python and r
+repo for talk dec 16, 2014 at stag's head pub, houston on interoperability (commutative) between python and r
 accompanying slides: https://www.dropbox.com/s/yf5bfsqm2a2nqwp/RPython.ppt?dl=0
 
 please install the following packages/programs to follow along with examples:
