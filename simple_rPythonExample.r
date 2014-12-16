@@ -18,6 +18,7 @@ python.exec("happyBirthdayToYou()")
   # use python.get to retrieve an object post-execution
 # now for a more advanced example 
 
+
 python.exec("import nltk")
 python.exec("import nltk.corpus")
 python.exec("from nltk.corpus import PlaintextCorpusReader")
@@ -28,12 +29,12 @@ python.exec("raw = open(url).read()")
 python.exec("ttt = nltk.tokenize.TextTilingTokenizer(w=7, k=3, smoothing_width=6, smoothing_rounds=10)")
 python.exec("tiles = ttt.tokenize(raw)")
 python.exec("print(tiles[1])")
-firstTextTile <- python.get("textTiles[1]")
+firstTextTile <- python.get("tiles[1]")
 firstTextTile
-python.get("firstTextTile")
 text <- paste("espeak -v+whisper -k20 -p 79 -s 225 \"", firstTextTile, "\"", sep="")
 text
 system(text)
+
 
 
 
