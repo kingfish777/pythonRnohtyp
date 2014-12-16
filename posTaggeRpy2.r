@@ -4,12 +4,13 @@ import nltk
 import sys
 from nltk.tokenize import RegexpTokenizer
 
-# sentence = "I am the walrus. I am the eggman. The man eats the apple. Ivan shot the bear."
+sentence = "I am the walrus. I am the eggman. The man eats the apple. Ivan shot the bear."
+
 for arg in sys.argv: 
     print arg
-sentences = nltk.sent_tokenize(arg)
-print(sentences)
-tokenizer = RegexpTokenizer(r'\w+')
+    sentences = nltk.sent_tokenize(arg)
+    print(sentences)
+    tokenizer = RegexpTokenizer(r'\w+')
 
 for sentence in sentences: 
  #   tokens = nltk.word_tokenize(sentence) 
@@ -19,7 +20,12 @@ for sentence in sentences:
     print(tagged)
     entities = nltk.ne_chunk(tagged)
     print(entities)
-# R version
+######### SNIP SNIP######################
+#########################################
+#########################################
+    
+    
+# R version ----------- INCOMPLETE!!!
 python.exec("import nltk")
 python.exec("import sys")
 python.exec("from nltk.tokenize import RegexpTokenizer")
