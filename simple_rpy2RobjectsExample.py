@@ -13,11 +13,6 @@ robjects.r('''
     f(3)
   ''')
 # 18.85
-  
-# another simple example
-Letters = robjects.r['letters']
-rcode  = 'paste(%s, collapse=”-”)' %(letters.r_repr())
-print(res)
  
 # a more interesting/useful example
  
