@@ -1,3 +1,4 @@
+#convert to python (time allowing) with rpy2
 library(tm)
   # it is best to use v5.9.1 of tm. v6.0.0 seems to be riddled with bugs
   # at least when I run it on Linux Mint/Ubuntu/CentOS
