@@ -18,3 +18,8 @@ These scripts are a work-in-progress.
 
 possible answer to anticipated r/pandas dataframe question(s): http://pandas.pydata.org/pandas-docs/stable/r_interface.html
 
+more comparison: 
+http://pandas.pydata.org/pandas-docs/stable/comparison_with_r.html
+
+
+
