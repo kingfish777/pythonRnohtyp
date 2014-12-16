@@ -24,16 +24,16 @@ python.exec("import nltk.corpus")
 python.exec("from nltk.corpus import PlaintextCorpusReader")
 python.exec("from urllib import urlopen")
 python.exec("import numpy")
-python.exec("url = '/amanuensis/data/raw_data/corpora/fedchairs/gReenspanCorpus/greenspan_19980828.txt'")
+python.exec("url = '/amanuensis/data/raw_data/corpora/fedchairs/gReenspanCorpus/greenspan_19990506.txt'")
 python.exec("raw = open(url).read()")
 python.exec("ttt = nltk.tokenize.TextTilingTokenizer(w=7, k=3, smoothing_width=6, smoothing_rounds=10)")
 python.exec("tiles = ttt.tokenize(raw)")
 python.exec("print(tiles[1])")
 firstTextTile <- python.get("tiles[1]")
 firstTextTile
-text <- paste("espeak -v+whisper -k20 -p 79 -s 225 \"", firstTextTile, "\"", sep="")
-text
-system(text)
+#text <- paste("espeak -v+whisper -k20 -p 79 -s 225 \"", firstTextTile, "\"", sep="")
+#text
+#system(text)
 
 
 
