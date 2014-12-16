@@ -10,7 +10,7 @@ x <- python.get("1+2")
 python.exec("def happyBirthdayToYou(): print(\"happy birthday to you!\")")
   # use python.exec when you only need to execute or evaluate an expression within Python
   # use python.get to retrieve an object post-execution
-# now for a more advanced example
+# now for a more advanced example 
 
 python.exec("import nltk")
 python.exec("import nltk.corpus")
