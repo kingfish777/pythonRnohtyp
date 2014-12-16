@@ -8,6 +8,12 @@ library(rPython)
 x <- python.get("1+2")
 # another simple example, creating a function, notice the escapes
 python.exec("def happyBirthdayToYou(): print(\"happy birthday to you!\")")
+python.exec("happyBirthdayToYou()")
+
+# unfortunately, rPython does not work on Wintel systems. However, despair not, you can escape to the OS with system()
+system('python -c "def happyBirthdayToYou():  print(\"happy birthday to you!\")"')
+system('python -c "happyBirthdayToYou()"')
+       #### NOT WORKING!!! OUTTA LUCK w\ Windows! 
   # use python.exec when you only need to execute or evaluate an expression within Python
   # use python.get to retrieve an object post-execution
 # now for a more advanced example 
