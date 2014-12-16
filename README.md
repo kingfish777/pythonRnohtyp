@@ -13,3 +13,7 @@ please install the following packages/programs to follow along with examples:
 * rpy2
 * rstudio
 
+These scripts are a work-in-progress. 
+
+possible answer to anticipated r/pandas dataframe question(s): http://pandas.pydata.org/pandas-docs/stable/r_interface.html
+
