@@ -13,7 +13,7 @@ robjects.r('''
     f(3)
   ''')
 # 18.85
- 
+
 # a more interesting/useful example
  
 r = robjects.r
